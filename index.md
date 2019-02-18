@@ -325,7 +325,6 @@ please preview your site before committing, and make sure to run
     Bash is a commonly-used shell that gives you the power to do simple
     tasks more quickly.
   </p>
--->
 
   <div>
     <ul class="nav nav-tabs nav-justified" role="tablist">
@@ -415,6 +414,7 @@ please preview your site before committing, and make sure to run
     </div>
   </div>
 </div> {% comment %} End of 'shell' section. {% endcomment %}
+-->
 
 <div id="git"> {% comment %} Start of 'Git' section. GitHub browser compatability
   is given at https://help.github.com/articles/supported-browsers/{% endcomment %}
