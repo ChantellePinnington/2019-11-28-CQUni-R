@@ -318,12 +318,14 @@ please preview your site before committing, and make sure to run
   <a href = "{{site.swc_github}}/workshop-template/wiki/Configuration-Problems-and-Solutions">Configuration Problems and Solutions wiki page</a>.
 </p>
 
+<!--
 <div id="shell"> {% comment %} Start of 'shell' section. {% endcomment %}
   <h3>The Bash Shell</h3>
   <p>
     Bash is a commonly-used shell that gives you the power to do simple
     tasks more quickly.
   </p>
+-->
 
   <div>
     <ul class="nav nav-tabs nav-justified" role="tablist">
