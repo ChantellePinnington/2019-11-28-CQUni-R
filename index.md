@@ -815,6 +815,8 @@ please preview your site before committing, and make sure to run
 </div> {% comment %} End of 'OpenRefine' section. {% endcomment %}
 -->
 
+<hr/>
+
 {% comment %}
 <div id="vm">
   <h3>Virtual Machine</h3>
