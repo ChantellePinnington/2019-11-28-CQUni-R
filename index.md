@@ -839,6 +839,8 @@ please preview your site before committing, and make sure to run
 
 <hr/>
 
+<p>Additonal setup information can be found at <a href="http://swcarpentry.github.io/python-novice-gapminder/setup/">http://swcarpentry.github.io/python-novice-gapminder/setup/</a></p>
+
 {% comment %}
 <div id="vm">
   <h3>Virtual Machine</h3>
