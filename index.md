@@ -298,6 +298,13 @@ please preview your site before committing, and make sure to run
 'tools/check' as well.
 {% endcomment %}
 
+
+<h2 id="setup">Lesson Details: Python Programming </h2>
+<p>
+  Lessons online : http://swcarpentry.github.io/python-novice-gapminder/ 
+  Setup information: http://swcarpentry.github.io/python-novice-gapminder/setup/ 
+</p>
+
 <h2 id="setup">Setup</h2>
 
 <p>
