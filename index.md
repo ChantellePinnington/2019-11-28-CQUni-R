@@ -257,6 +257,8 @@ e.g., '2015-06-10-esu'.
 
 <hr/>
 
+
+<!--
 {% comment %}
 SYLLABUS
 
@@ -285,6 +287,8 @@ please preview your site before committing, and make sure to run
 {% endif %}
 
 <hr/>
+
+-->
 
 {% comment %}
 SETUP
