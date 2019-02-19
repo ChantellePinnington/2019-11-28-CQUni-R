@@ -77,7 +77,7 @@ displayed if the 'eventbrite' field in the header is not set.
  </p>
  
  <p>
-  You must attend both days, unless otherwise confirmed with the instructor.  With this training provide online using ZOOM, places are very limited.  With this in mind, if you register to attend and then don’t attend the full training, you will forfeit any other training provided by CQUniversity eResearch Support for the remaining of the year.  Obviously, if there are extenuating circumstances, then they will be considered.
+  You must attend both days, unless otherwise confirmed with the instructor.  With this training provide online using ZOOM, places are very limited.  With this in mind, <b>if you register to attend and then don’t attend the full training, you will forfeit any other training provided by CQUniversity eResearch Support for the remaining of the year.</b>  Obviously, if there are extenuating circumstances, then they will be considered.
 </p>
 
 <h2 id="general">General Information</h2>
