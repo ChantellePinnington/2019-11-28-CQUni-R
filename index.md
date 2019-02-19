@@ -301,8 +301,8 @@ please preview your site before committing, and make sure to run
 
 <h2 id="setup">Lesson Details: Python Programming </h2>
 <p>
-  Lessons online : http://swcarpentry.github.io/python-novice-gapminder/ 
-  Setup information: http://swcarpentry.github.io/python-novice-gapminder/setup/ 
+  Lessons online : <a href="http://swcarpentry.github.io/python-novice-gapminder/">http://swcarpentry.github.io/python-novice-gapminder/</a></p>
+  Lessons online : <a href="http://swcarpentry.github.io/python-novice-gapminder/setup/">http://swcarpentry.github.io/python-novice-gapminder/setup/ </a></p>
 </p>
 
 <h2 id="setup">Setup</h2>
