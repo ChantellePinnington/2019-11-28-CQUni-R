@@ -837,9 +837,9 @@ please preview your site before committing, and make sure to run
 </div> {% comment %} End of 'OpenRefine' section. {% endcomment %}
 -->
 
-<hr/>
-
 <p>Additonal setup information can be found at <a href="http://swcarpentry.github.io/python-novice-gapminder/setup/">http://swcarpentry.github.io/python-novice-gapminder/setup/</a></p>
+
+<hr/>
 
 {% comment %}
 <div id="vm">
