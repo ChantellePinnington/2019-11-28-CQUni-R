@@ -315,8 +315,9 @@ please preview your site before committing, and make sure to run
 
 <h2 id="setup">Lesson Details: Python Programming </h2>
   <p> Lessons online : <a href="http://swcarpentry.github.io/python-novice-gapminder/">http://swcarpentry.github.io/python-novice-gapminder/</a></p>
-  <p>Setup information: <a href="http://swcarpentry.github.io/python-novice-gapminder/setup/">http://swcarpentry.github.io/python-novice-gapminder/setup/</a><br>
-Please note that we will not using Jupyter notebook, instead we will be using the “spyder” interactive development environment, as it more user friendly and already come as part of an anaconda installation.</p>
+  <p>Setup information: <a href="http://swcarpentry.github.io/python-novice-gapminder/setup/">http://swcarpentry.github.io/python-novice-gapminder/setup/</a></p>
+
+<p><b><i>Please note that we will not using Jupyter notebook, instead we will be using the “spyder” interactive development environment, as it more user friendly and already come as part of an anaconda installation.</i></b></p>
 
 <h2 id="setup">Setup</h2>
 
