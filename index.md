@@ -1,7 +1,7 @@
 ---
 layout: workshop      # DON'T CHANGE THIS.
-carpentry: "swc"    # what kind of Carpentry (must be either "lc" or "dc" or "swc").  
-                      # Be sure to update the Carpentry type in _config.yml as well.  
+carpentry: "swc"    # what kind of Carpentry (must be either "lc" or "dc" or "swc").
+                      # Be sure to update the Carpentry type in _config.yml as well.
 venue: "Introduction to Programming with R - Software Carpentry<br><br> CQ University Australia"        # brief name of host site without address (e.g., "Euphoric State University")
 address: "Virtual lesson taught over zoom"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria")
 country: "au"      # lowercase two-letter ISO country code such as "fr" (see https://en.wikipedia.org/wiki/ISO_3166-1#Current_codes)
@@ -37,7 +37,7 @@ For a workshop please delete the following block
 <div class="alert alert-danger">
 This is the workshop template. Delete these lines and use it to customize your
 own website. If you are running a self-organized workshop or have not put in a
-workshop request yet, please also fill in 
+workshop request yet, please also fill in
 <a href="{{site.amy_site}}/submit">this workshop request form</a> to let us know
 about your workshop and our administrator may contact you if we need any extra
 information.
@@ -47,7 +47,7 @@ information.
 {% if page.carpentry != site.carpentry %}
 <div class="alert alert-warning">
 You specified <code>carpentry: {{page.carpentry}}</code> in <code>index.md</code> and
-<code>carpentry: {{site.carpentry}}</code> in <code>_config.yml</code>. Make sure you edit both files. After editing <code>_config.yml</code>, you need to run <code>make serve</code> again to 
+<code>carpentry: {{site.carpentry}}</code> in <code>_config.yml</code>. Make sure you edit both files. After editing <code>_config.yml</code>, you need to run <code>make serve</code> again to
 see the changes take effect locally.
 </div>
 {% endif %}
@@ -75,7 +75,7 @@ displayed if the 'eventbrite' field in the header is not set.
 <p>
   <b>To register – you must email Jason Bell (j.bell@cqu.edu.au) to register for this event.</b>
  </p>
- 
+
  <p>
   You must attend both days, unless otherwise confirmed with the instructor.  With this training provided online using ZOOM, places are very limited.  With this in mind, <b>if you register to attend and then don’t attend the full training, you will forfeit any other training provided by CQUniversity eResearch Support for the remaining of the year.</b>  Obviously, if there are extenuating circumstances, then they will be considered.  If you cannot make this workshop, you will need to information the trainers 48 hours prior to the start of the workshop.
 </p>
@@ -149,7 +149,7 @@ Modify the block below if there are any special requirements.
 {% endcomment %}
 <p id="requirements">
   <strong>Requirements:</strong> Participants must bring a laptop with a
-  Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.) that they have administrative privileges. They should have a few specific software packages installed (listed <a href="#setup">below</a>). 
+  Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.) that they have administrative privileges. They should have a few specific software packages installed (listed <a href="#setup">below</a>).
   on.
 </p>
 
@@ -212,12 +212,12 @@ Display the contact email address set in the configuration file.
 
 <hr/>
 
-{% comment %} 
-SURVEYS - DO NOT EDIT SURVEY LINKS 
+{% comment %}
+SURVEYS - DO NOT EDIT SURVEY LINKS
 {% endcomment %}
 <h2 id="surveys">Surveys</h2>
 <p>Please be sure to complete these surveys before and after the workshop.</p>
-{% if site.carpentry == "swc" %} 
+{% if site.carpentry == "swc" %}
 <p><a href="{{ site.swc_pre_survey }}{{ site.github.project_title }}">Pre-workshop Survey</a></p>
 <p><a href="{{ site.swc_post_survey }}{{ site.github.project_title }}">Post-workshop Survey</a></p>
 {% elsif site.carpentry == "dc" %}
@@ -315,8 +315,8 @@ please preview your site before committing, and make sure to run
 
 <h2 id="setup">Lesson Details: R Programming </h2>
   <p> Lessons online : <a href="http://swcarpentry.github.io/r-novice-gapminder/">http://swcarpentry.github.io/r-novice-gapminder/</a></p>
-  <p>Setup information: <a href="http://swcarpentry.github.io/r-novice-gapminder/setup/">http://swcarpentry.github.io/r-novice-gapminder/setup/</a></p>
-
+{% comment %}  <p>Setup information: <a href="http://swcarpentry.github.io/r-novice-gapminder/setup/">http://swcarpentry.github.io/r-novice-gapminder/setup/</a></p>
+{% endcomment %}
 <h2 id="setup">Setup</h2>
 
 <p>
@@ -480,7 +480,7 @@ please preview your site before committing, and make sure to run
           <a href="http://sourceforge.net/projects/git-osx-installer/files/">this list</a>.
           Because this installer is not signed by the developer, you may have to
           right click (control click) on the .pkg file, click Open, and click
-          Open on the pop up window. 
+          Open on the pop up window.
           After installing Git, there will not be anything in your <code>/Applications</code> folder,
           as Git is a command line program.
           <strong>For older versions of OS X (10.5-10.8)</strong> use the
@@ -512,8 +512,8 @@ please preview your site before committing, and make sure to run
     color-coding of key words. The default text editor on macOS and
     Linux is usually set to Vim, which is not famous for being
     intuitive. If you accidentally find yourself stuck in it, hit
-    the <kbd>Esc</kbd> key, followed by <kbd>:</kbd>+<kbd>Q</kbd>+<kbd>!</kbd> 
-    (colon, lower-case 'q', exclamation mark), then hitting <kbd>Return</kbd> to 
+    the <kbd>Esc</kbd> key, followed by <kbd>:</kbd>+<kbd>Q</kbd>+<kbd>!</kbd>
+    (colon, lower-case 'q', exclamation mark), then hitting <kbd>Return</kbd> to
     return to the shell.
   </p>
 
@@ -570,6 +570,7 @@ please preview your site before committing, and make sure to run
 
 -->
 
+<!--
 <div id="python"> {% comment %} Start of 'Python' section. Remove the third paragraph if
   the workshop will teach Python using something other than
   the Jupyter notebook.
@@ -667,9 +668,9 @@ please preview your site before committing, and make sure to run
   </p>
   {% endcomment %}
 </div> {% comment %} End of 'Python' section. {% endcomment %}
+-->
 
 
-<!--
 <div id="r"> {% comment %} Start of 'R' section. {% endcomment %}
   <h3>R</h3>
 
@@ -696,9 +697,9 @@ please preview your site before committing, and make sure to run
           from <a href="https://cran.r-project.org/index.html">CRAN</a>.
           Also, please install the
           <a href="https://www.rstudio.com/products/rstudio/download/#download">RStudio IDE</a>.
-          Note that if you have separate user and admin accounts, you should run the 
-          installers as administrator (right-click on .exe file and select "Run as 
-          administrator" instead of double-clicking). Otherwise problems may occur later, 
+          Note that if you have separate user and admin accounts, you should run the
+          installers as administrator (right-click on .exe file and select "Run as
+          administrator" instead of double-clicking). Otherwise problems may occur later,
           for example when installing R packages.
         </p>
       </article>
@@ -725,7 +726,6 @@ please preview your site before committing, and make sure to run
     </div>
   </div>
 </div> {% comment %} End of 'R' section. {% endcomment %}
--->
 
 
 <!--
