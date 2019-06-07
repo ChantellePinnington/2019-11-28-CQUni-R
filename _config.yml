@@ -10,7 +10,7 @@
 carpentry: "swc"
 
 # Overall title for pages.
-title: "CQUniversity Python Programming" 
+title: "CQUniversity R Programming" 
 
 
 #------------------------------------------------------------
@@ -44,8 +44,8 @@ swc_pages: "https://swcarpentry.github.io"
 swc_site: "https://software-carpentry.org"
 template_repo: "https://github.com/carpentries/styles"
 training_site: "https://carpentries.github.io/instructor-training"
-workshop_repo: "github.com/cqueresearch/2019-02-28-CQUni-Pythonc"
-workshop_site: "https://cqueresearch.github.io/2019-02-28-CQUni-Python/"
+workshop_repo: "github.com/cqueresearch/2019-06-20-CQUni-R"
+workshop_site: "https://cqueresearch.github.io/2019-06-20-CQUni-R/"
 
 # Surveys.
 swc_pre_survey: "https://www.surveymonkey.com/r/swc_pre_workshop_v1?workshop_id="
