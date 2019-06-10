@@ -2,7 +2,7 @@
 layout: workshop      # DON'T CHANGE THIS.
 carpentry: "swc"    # what kind of Carpentry (must be either "lc" or "dc" or "swc").
                       # Be sure to update the Carpentry type in _config.yml as well.
-venue: "Introduction to Programming with R - Software Carpentry<br><br> CQ University Australia"        # brief name of host site without address (e.g., "Euphoric State University")
+venue: "Introduction to Programming with R - Software Carpentry<br> CQ University Australia <img align=right src=https://www.qcif.edu.au/images/logo.png><br><img align=right src=https://www.cqu.edu.au/__data/assets/git_bridge/0037/67897/dist/mysource_files/cqu-logo.png>"        # brief name of host site without address (e.g., "Euphoric State University")
 address: "Virtual lesson taught over zoom"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria")
 country: "au"      # lowercase two-letter ISO country code such as "fr" (see https://en.wikipedia.org/wiki/ISO_3166-1#Current_codes)
 language: "en"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes)
@@ -253,7 +253,7 @@ Collaborative Notes
 
 If you want to use an Etherpad, go to
 
-http://pad.software-carpentry.org/YYYY-MM-DD-site
+http://pad.carpentries.org/YYYY-MM-DD-site
 
 where 'YYYY-MM-DD-site' is the identifier for your workshop,
 e.g., '2015-06-10-esu'.
@@ -286,7 +286,7 @@ please preview your site before committing, and make sure to run
 'tools/check' as well.
 {% endcomment %}
 
-{% comment %}
+
 <h2 id="syllabus">Syllabus</h2>
 
 {% if page.carpentry == "swc" %}
@@ -298,7 +298,7 @@ please preview your site before committing, and make sure to run
 {% endif %}
 
 <hr/>
-{% endcomment %}
+
 
 {% comment %}
 SETUP
@@ -835,7 +835,9 @@ please preview your site before committing, and make sure to run
 </div> {% comment %} End of 'OpenRefine' section. {% endcomment %}
 -->
 
+{% comment %}Next line I'm not sure why it's here
 <p>Additonal setup information can be found at <a href="http://swcarpentry.github.io/python-novice-gapminder/setup/">http://swcarpentry.github.io/python-novice-gapminder/setup/</a></p>
+{% endcomment %}
 
 <hr/>
 
