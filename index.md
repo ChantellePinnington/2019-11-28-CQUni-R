@@ -6,7 +6,7 @@ venue: "Introduction to Python - Software Carpentry<br><br> CQ University Austra
 address: "Virtual lesson taught over zoom"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria")
 country: "au"      # lowercase two-letter ISO country code such as "fr" (see https://en.wikipedia.org/wiki/ISO_3166-1#Current_codes)
 language: "en"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes)
-latlng: ""       # decimal latitude and longitude of workshop venue (e.g., "41.7901128,-87.6007318" - use https://www.latlong.net/)
+latlng:        # decimal latitude and longitude of workshop venue (e.g., "41.7901128,-87.6007318" - use https://www.latlong.net/)
 humandate: "June 27-28, 2019"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
 humantime: "9:00 am - 4:30 pm"    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
 startdate: 2019-06-27      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
@@ -122,12 +122,15 @@ address.
 <p id="where">
   <strong>Where:</strong>
   {{page.address}}.
-  
+  Get directions with
+  <a href="//www.openstreetmap.org/?mlat={{page.latlng | replace:',','&mlon='}}&zoom=16">OpenStreetMap</a>
+  or
+  <a href="//maps.google.com/maps?q={{page.latlng}}">Google Maps</a>.
 </p>
 {% endif %}
 
 {% comment %}
-DATE
+DATE7
 
 This block displays the date and links to Google Calendar.
 {% endcomment %}
