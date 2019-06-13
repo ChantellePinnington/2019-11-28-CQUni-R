@@ -122,10 +122,7 @@ address.
 <p id="where">
   <strong>Where:</strong>
   {{page.address}}.
-  Get directions with
-  <a href="//www.openstreetmap.org/?mlat={{page.latlng | replace:',','&mlon='}}&zoom=16">OpenStreetMap</a>
-  or
-  <a href="//maps.google.com/maps?q={{page.latlng}}">Google Maps</a>.
+
 </p>
 {% endif %}
 
@@ -167,6 +164,8 @@ ACCESSIBILITY
 Modify the block below if there are any barriers to accessibility or
 special instructions.
 {% endcomment %}
+{% comment %}
+Removed because online workshop
 <p id="accessibility">
   <strong>Accessibility:</strong> We are committed to making this workshop
   accessible to everybody.
@@ -184,6 +183,7 @@ special instructions.
   get in touch (using contact details below) and we will
   attempt to provide them.
 </p>
+{% endcomment %}
 
 {% comment %}
 CONTACT EMAIL ADDRESS
