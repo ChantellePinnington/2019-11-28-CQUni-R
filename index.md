@@ -165,7 +165,7 @@ Modify the block below if there are any barriers to accessibility or
 special instructions.
 {% endcomment %}
 {% comment %}
-Removed because online workshop
+Commented out this section as not relevant to a virtual workshop
 <p id="accessibility">
   <strong>Accessibility:</strong> We are committed to making this workshop
   accessible to everybody.
