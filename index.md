@@ -1,16 +1,16 @@
 ---
 layout: workshop      # DON'T CHANGE THIS.
-carpentry: "swc"    # what kind of Carpentry (must be either "lc" or "dc" or "swc").  
-                      # Be sure to update the Carpentry type in _config.yml as well.  
+carpentry: "swc"    # what kind of Carpentry (must be either "lc" or "dc" or "swc").
+                      # Be sure to update the Carpentry type in _config.yml as well.
 venue: "Introduction to Python - Software Carpentry<br><br> CQ University Australia"        # brief name of host site without address (e.g., "Euphoric State University")
 address: "Virtual lesson taught over zoom"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria")
 country: "au"      # lowercase two-letter ISO country code such as "fr" (see https://en.wikipedia.org/wiki/ISO_3166-1#Current_codes)
 language: "en"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes)
 latlng:        # decimal latitude and longitude of workshop venue (e.g., "41.7901128,-87.6007318" - use https://www.latlong.net/)
-humandate: "June 27-28, 2019"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
+humandate: "November 28-29, 2019"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
 humantime: "9:00 am - 4:30 pm"    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
-startdate: 2019-06-27      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
-enddate: 2019-06-28        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
+startdate: 2019-11-28      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
+enddate: 2019-11-29        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
 instructor: ["Jason Bell"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
 helper: [""]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
 email: ["j.bell@cqu.edu.au"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
@@ -37,7 +37,7 @@ For a workshop please delete the following block
 <div class="alert alert-danger">
 This is the workshop template. Delete these lines and use it to customize your
 own website. If you are running a self-organized workshop or have not put in a
-workshop request yet, please also fill in 
+workshop request yet, please also fill in
 <a href="{{site.amy_site}}/submit">this workshop request form</a> to let us know
 about your workshop and our administrator may contact you if we need any extra
 information.
@@ -47,7 +47,7 @@ information.
 {% if page.carpentry != site.carpentry %}
 <div class="alert alert-warning">
 You specified <code>carpentry: {{page.carpentry}}</code> in <code>index.md</code> and
-<code>carpentry: {{site.carpentry}}</code> in <code>_config.yml</code>. Make sure you edit both files. After editing <code>_config.yml</code>, you need to run <code>make serve</code> again to 
+<code>carpentry: {{site.carpentry}}</code> in <code>_config.yml</code>. Make sure you edit both files. After editing <code>_config.yml</code>, you need to run <code>make serve</code> again to
 see the changes take effect locally.
 </div>
 {% endif %}
@@ -75,9 +75,9 @@ displayed if the 'eventbrite' field in the header is not set.
 <p>
   <b>To register – you must email Jason Bell (j.bell@cqu.edu.au) to register for this event.</b>
  </p>
- 
+
  <p>
-  You must attend both days, unless otherwise confirmed with the instructor.  With this training provided online using ZOOM, places are very limited.  With this in mind, <b>if you register to attend and then don’t attend the full training, you will forfeit any other training provided by CQUniversity eResearch Support for the remaining of the year.</b>  Obviously, if there are extenuating circumstances, then they will be considered.  If you cannot make this workshop, you will need to information the trainers 48 hours prior to the start of the workshop.
+  You must attend both days, unless otherwise confirmed with the instructor.  With this training provided online using Zoom, places are very limited.  With this in mind, <b>if you register to attend and then don’t attend the full training, you may forfeit any other training provided by CQUniversity eResearch Support for the remaining of the year.</b>  Obviously, if there are extenuating circumstances, then they will be considered.  If you cannot make this workshop, you will need to inform the trainers 48 hours prior to the start of the workshop.
 </p>
 
 <h2 id="general">General Information</h2>
@@ -118,16 +118,20 @@ if the latitude and longitude of the workshop have been set.  You
 can use https://itouchmap.com/latlong.html to find the lat/long of an
 address.
 {% endcomment %}
+<p id="where">
+  <strong>Where:</strong>
+  Virtual workshop taught over Zoom
+</p>
 {% if page.latlng %}
 <p id="where">
   <strong>Where:</strong>
   {{page.address}}.
-  
+
 </p>
 {% endif %}
 
 {% comment %}
-DATE7
+DATE
 
 This block displays the date and links to Google Calendar.
 {% endcomment %}
@@ -146,7 +150,7 @@ Modify the block below if there are any special requirements.
 {% endcomment %}
 <p id="requirements">
   <strong>Requirements:</strong> Participants must bring a laptop with a
-  Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.) that they have administrative privileges. They should have a few specific software packages installed (listed <a href="#setup">below</a>). 
+  Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.) that they have administrative privileges. They should have a few specific software packages installed (listed <a href="#setup">below</a>).
   on.
 </p>
 
@@ -209,12 +213,12 @@ Display the contact email address set in the configuration file.
 
 <hr/>
 
-{% comment %} 
-SURVEYS - DO NOT EDIT SURVEY LINKS 
+{% comment %}
+SURVEYS - DO NOT EDIT SURVEY LINKS
 {% endcomment %}
 <h2 id="surveys">Surveys</h2>
 <p>Please be sure to complete these surveys before and after the workshop.</p>
-{% if site.carpentry == "swc" %} 
+{% if site.carpentry == "swc" %}
 <p><a href="{{ site.swc_pre_survey }}{{ site.github.project_title }}">Pre-workshop Survey</a></p>
 <p><a href="{{ site.swc_post_survey }}{{ site.github.project_title }}">Post-workshop Survey</a></p>
 {% elsif site.carpentry == "dc" %}
@@ -479,7 +483,7 @@ please preview your site before committing, and make sure to run
           <a href="http://sourceforge.net/projects/git-osx-installer/files/">this list</a>.
           Because this installer is not signed by the developer, you may have to
           right click (control click) on the .pkg file, click Open, and click
-          Open on the pop up window. 
+          Open on the pop up window.
           After installing Git, there will not be anything in your <code>/Applications</code> folder,
           as Git is a command line program.
           <strong>For older versions of OS X (10.5-10.8)</strong> use the
@@ -511,8 +515,8 @@ please preview your site before committing, and make sure to run
     color-coding of key words. The default text editor on macOS and
     Linux is usually set to Vim, which is not famous for being
     intuitive. If you accidentally find yourself stuck in it, hit
-    the <kbd>Esc</kbd> key, followed by <kbd>:</kbd>+<kbd>Q</kbd>+<kbd>!</kbd> 
-    (colon, lower-case 'q', exclamation mark), then hitting <kbd>Return</kbd> to 
+    the <kbd>Esc</kbd> key, followed by <kbd>:</kbd>+<kbd>Q</kbd>+<kbd>!</kbd>
+    (colon, lower-case 'q', exclamation mark), then hitting <kbd>Return</kbd> to
     return to the shell.
   </p>
 
@@ -695,9 +699,9 @@ please preview your site before committing, and make sure to run
           from <a href="https://cran.r-project.org/index.html">CRAN</a>.
           Also, please install the
           <a href="https://www.rstudio.com/products/rstudio/download/#download">RStudio IDE</a>.
-          Note that if you have separate user and admin accounts, you should run the 
-          installers as administrator (right-click on .exe file and select "Run as 
-          administrator" instead of double-clicking). Otherwise problems may occur later, 
+          Note that if you have separate user and admin accounts, you should run the
+          installers as administrator (right-click on .exe file and select "Run as
+          administrator" instead of double-clicking). Otherwise problems may occur later,
           for example when installing R packages.
         </p>
       </article>
